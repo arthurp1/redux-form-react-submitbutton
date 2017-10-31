@@ -148,7 +148,7 @@ export class SubmitButton extends Component {
     }
 
     return (
-      <div>
+      <div classname="submit-button">
         <button
           style={Object.assign({}, buttonStyles, isDisabled ? { cursor: 'pointer' } : {})}
           className={`${className} ${dynamicClassName} ${isDisabled ? disabledClassName : ''}`}
